@@ -13,7 +13,7 @@ spec:
         limits:
           memory: "1Gi"
     - name: docker
-      image: docker:18.06.1
+      image: docker:19.03.13
       command: ["tail", "-f", "/dev/null"]
       imagePullPolicy: Always
       volumeMounts:
